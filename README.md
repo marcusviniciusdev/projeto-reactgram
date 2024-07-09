@@ -33,14 +33,34 @@ Siga estas etapas para executar o projeto localmente:
    cd projeto-reactgram
    ```
 
-3. Instale as dependências:
+3. Navegue até o diretório do front-end:
+   ```bash
+   cd frontend
+   ```
+
+4. Instale as dependências do front-end:
    ```bash
    npm install
    ```
 
-4. Inicie o servidor de desenvolvimento:
+5. Inicie o servidor de desenvolvimento do front-end:
    ```bash
    npm start
+   ```
+
+6. Em uma nova janela do terminal, navegue até o diretório do back-end:
+   ```bash
+   cd ../backend
+   ```
+
+7. Instale as dependências do back-end:
+   ```bash
+   npm install
+   ```
+
+8. Inicie o servidor do back-end:
+   ```bash
+   npm run server
    ```
 
 ## Funcionalidades
@@ -52,20 +72,5 @@ Siga estas etapas para executar o projeto localmente:
 - [x] Autenticação e autorização de usuários
 - [x] Upload e visualização de imagens
 
-## Contribuição
-
-Se você quiser contribuir com este projeto, por favor siga os passos abaixo:
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/nova-feature`)
-3. Faça commit das suas alterações (`git commit -m 'Adiciona nova feature'`)
-4. Faça push para a branch (`git push origin feature/nova-feature`)
-5. Abra um Pull Request
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
 Feito com ❤️ por Marcus Vinicius
+
